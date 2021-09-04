@@ -119,7 +119,6 @@ public class DrawLine : MonoBehaviour, IDragHandler, IDropHandler, IPointerDownH
             }
             if(!weCanEndDrag)
             {
-                Debug.Log("wtf");
                 CurrentLine = 0;
                 points = new List<Vector2>(new Vector2[] { new Vector2(0,0)});
                 RefreshLine();
